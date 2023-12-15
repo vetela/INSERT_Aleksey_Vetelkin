@@ -71,7 +71,7 @@ where not exists (
 );
 
 -- simple selects to check workability of programm
--- select * from film order by film_id desc
+-- select film_id, title, rental_duration, rental_rate from film order by film_id desc
 -- select * from actor order by actor_id desc
 -- select * from film_actor order by film_id desc
 -- select * from inventory order by inventory_id desc
