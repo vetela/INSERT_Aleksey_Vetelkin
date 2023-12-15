@@ -69,7 +69,6 @@ where not exists (
     where film_id = (select film_id from FilmCte)
     and store_id = 1
 );
-
 -- simple selects to check workability of programm
 -- select film_id, title, rental_duration, rental_rate from film order by film_id desc
 -- select * from actor order by actor_id desc
